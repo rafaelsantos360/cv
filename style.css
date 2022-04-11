@@ -167,3 +167,42 @@ body {
     padding-right: 1rem;
 }
 
+.right-main-content{
+    padding: 2rem 3rem;
+}
+
+.right-title {
+    color: #2f80ed;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 1.3rem;
+    position: relative;
+}
+
+.right-title::after {
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: .2rem;
+    border-radius: 12px;
+    background-color: #2d9cdb;
+    right: 0%;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.para {
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.1rem;
+    
+}
+
+.sect {
+    padding-bottom: 2rem;
+}
+
+
+
+
+
